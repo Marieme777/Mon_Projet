@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Culinaire</title>
+</head>
+<body>
+
+    <!-- 1. En-tête et Navigation -->
+    <header id="home">
+        <h1>L'Art de la Cuisine</h1>
+        <p>Créations gourmandes & recettes passionnées</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. Section About -->
+        <section id="about">
+            <h2>À propos de moi (About)</h2>
+            <p>Passionnée par la gastronomie et la pâtisserie depuis mon plus jeune âge, j'aime explorer de nouvelles saveurs et partager mes créations culinaires.</p>
+            
+            <!-- Vidéo / Audio culinaire -->
+            <h3>Vidéo de démonstration en cuisine</h3>
+            <video controls width="200">
+                <source src="c:\Users\Admin\Downloads\Download.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+        </section>
+
+        <!-- 3. Section Work -->
+        <section id="work">
+            <h2>Mes Créations & Spécialités (Work)</h2>
+            <p>Voici un aperçu de mes réalisations gourmandes :</p>
+            <ul>
+                <li><strong>Entrées :</strong> Velouté de saison et tartelettes salées</li>
+                <li><strong>Plats principaux :</strong> Plats traditionnels revisités et options végétariennes</li>
+                <li><strong>Pâtisserie :</strong> Tartes aux fruits frais, choux et entremets au chocolat</li>
+            </ul>
+        </section>
+
+        <!-- 4. Section Resume -->
+        <section id="resume">
+            <h2>Mon Parcours Culinaire (Resume)</h2>
+            
+            <!-- Tableau d'expérience -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Année</th>
+                        <th>Expérience / Formation</th>
+                        <th>Lieu / Établissement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024</td>
+                        <td>Chef de partie / Pâtissier</td>
+                        <td>Restaurant Gastronomique</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>CAP Cuisine & Pâtisserie</td>
+                        <td>École Hôtelière</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5. Section Contact (Formulaire HTML) -->
+        <section id="contact">
+            <h2>Me Contacter (Contact)</h2>
+            <p>Pour des ateliers culinaires, des prestations ou simplement échanger sur la cuisine :</p>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Nom :</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="subject">Sujet de votre demande :</label><br>
+                    <select id="subject" name="subject">
+                        <option value="atelier">Atelier de cuisine</option>
+                        <option value="evenement">Commande / Événement</option>
+                        <option value="autre">Autre question</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Envoyer mon message</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- 6. Pied de page -->
+    <footer>
+        <p>&copy; 2026 Passion Cuisine. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
